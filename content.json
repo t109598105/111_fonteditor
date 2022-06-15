@@ -1,0 +1,110 @@
+[
+    {
+        "title": "摘要",
+        "content": "TrueType 是由美國微軟公司以及蘋果公司開發的電腦字型標準，經過數十年的發展，目前已經成為多種作業系統的基本預設的字型格式，可以嵌入應用程式或者網頁呈現各種字體。本論文所開發的系統使用 HTML 以及 Javascript 等語言，針對前端靜態網頁的方式進行設計，著重在字型設計上的實務應用，由於傳統字型設計方面，可能需要先安裝環境、設定函式庫…等等的瑣碎步驟，在各個系統平台，如: Windows, Linux, Macos 也會對應到不同的軟體，且向量圖渲染方面，也會需要許多函式庫的輔助，無疑增加了字型設計的門檻，本論文所開發的系統降低了操作的難度，並且利用網頁跨平台的特性，省去使用者設計字型的困難，直接使用網頁上所提供的功能即可製作出屬於自己的一套全新字型，不需安裝任何函式庫或軟體。本系統可讀取完整的 TrueType 字型檔案，在系統內部渲染該字體中所包含的 Glyph 輪廓，並以 SVG 格式向量圖案呈現。本系統提供多種方案，包含: 使用者的自訂函式，針對字體中包含的字型進行 Glyph 輪廓變換；藉由讀取 SVG 向量圖案直接替換 TrueType 的 Glyph 輪廓；直接修改 SVG path …等，進而獲得另一套全新的字體。",
+        "pic": "cover.png",
+        "urls": []
+    },
+    {
+        "title": "論文介紹頁",
+        "content": "論文介紹頁面，包含系統 Web App 連結、系統介紹、系統操作說明、系統實用工具、論文頁面等。",
+        "pic": "paper_cover.png",
+        "urls": [{ 
+            "href": "//paper.poynt2005.top",
+            "text": "網頁連結"
+        }]
+    },
+    {
+        "title": "動機",
+        "content": "可自由使用的字體對於創作者的需求是非常大的,創作一個新字體,可能需要各種不同的字型設計軟體、繪圖程式和一些美術天分,對於一般的創作者而言,美術天分或許不是一個太大的瓶頸,但字體設計軟體、繪圖程式的操作與使用,涉及到軟體、環境架設、繪圖工具相關的知識,對於不同平台的作業系統、不同架構的處理器,可能會造成這些軟體間的不相容的狀況,需要針對合適的架構安裝合適的系統。本研究所開發的系統目的是為了降低創作者在字體設計方面上所遇到的困難、降低製作門檻,利用網頁跨平台的特性,將一些常用的字體設計功能,整合在基於網頁的Web App 之中,創作者可以省去安裝環境、安裝軟體等不必要的步驟,只需打開目標網址,即可進行字體創作,直接使用網頁中所提供的工具,即可產生一套新字型。",
+        "pic": "font_design.png",
+        "urls": []
+    },
+    {
+        "title": "主系統",
+        "content": "Font SVG Viewer 為本研究開發的系統之主程式，使用 WebApp 方式進行設計，使用者只須打開瀏覽器即可使用全部的字型設計工具，不需要安裝任何軟體、程式庫。",
+        "pic": "coverThang.png",
+        "urls": [
+            { 
+                "href": "//font.poynt2005.top",
+                "text": "Font SVG Viewer"
+            },
+            { 
+                "href": "//paper.poynt2005.top",
+                "text": "論文介紹頁"
+            }
+        ]
+    },
+    {
+        "title": "實用工具: OpenType-SVG 彩色字體編輯器",
+        "content": "本研究以 Adobe 公司的 OpenType-SVG 開源專案進行製作，修改原始讀取方式，並建構圖形介面功能，免去呼叫命令列等較為不好操作的步驟。使用者使用本工具即可製作出一套彩色字體，本工具建構於 Windows 10(x64) 之系統上，請使用相應的作業系統進行開啟。",
+        "pic": "opentype-svg-interface.png",
+        "urls": [
+            { 
+                "href": "//drive.google.com/file/d/1latKOv75XAJYm9JNT_sBfDMkc8GmY14I/view",
+                "text": "軟體下載點"
+            },
+            {
+                "href": "//docs.google.com/presentation/d/1XoqLNVEatPggu-cBEuMJZhLfMyoRNgY0/edit?usp=sharing&ouid=108883788604534614862&rtpof=true&sd=true",
+                "text": "軟體教程"
+            }
+        ]
+    },
+    {
+        "title": "資料可視化: Hanzi Circle Transition",
+        "content": "該專案為資料可視化 2021 春季班的作業 07 ，使用 OpenType.js 以及 d3-interpolate 等套件達成漢字由圓圈形變為文字的過程，由 SVG 的形式展示於網頁上。",
+        "pic": "yuanBianHanZi.png",
+        "urls": [
+            { 
+                "href": "//t109598105.github.io/vis2021s/lab07/",
+                "text": "專案連結"
+            }
+        ]
+    },
+    {
+        "title": "資料可視化: HanZi Calligraphy",
+        "content": "該專案為資料可視化 2021 春季班的作業 08 ，利用階層式樣式表的形變動畫配合 SVG 剪裁路徑的屬性，創造出手寫書法字體的動畫效果。",
+        "pic": "hanZiSuFa.png",
+        "urls": [
+            { 
+                "href": "//t109598105.github.io/vis2021s/lab08/",
+                "text": "專案連結"
+            }
+        ]
+    },
+    {
+        "title": "文字編碼與字形設計: Simple Text Drawer",
+        "content": "該專案為文字編碼與字形設計 2022 春季班的作業 03 的加強版工具，可幫助使用者利用 SVG Rect 的方式 \"畫\" 出一個字型。",
+        "pic": "simple-text-drawer.png",
+        "urls": [
+            { 
+                "href": "//t109598105.github.io/simple-glyph-drawer/",
+                "text": "專案連結"
+            }
+        ]
+    },
+    {
+        "title": "字型檔案轉換器: otRebuilder",
+        "content": "為了避免 OpenType 格式的字型檔在使用上出現問題，本研究使用 otRebuilder 並結合部分的檔案處理腳本進行 OpenType 格式的字型檔進行轉換作業，轉換成為 TrueType 格式之後，可以有效的避免讀取上可能會發生的錯誤。本專案使用 colab 進行腳本執行的環境，可以免去使用者安裝環境的困擾，直接在網頁上進行操作。",
+        "pic": "colab.webp",
+        "urls": [
+            { 
+                "href": "//colab.research.google.com/drive/1WGcA40bIsjgnS-kDgz-VNBOifJXVNaQ4",
+                "text": "Google Colab 腳本連結"
+            }
+        ]
+    },
+    {
+        "title": "其他實用工具",
+        "content": "本研究製作許多非常實用的額外工具，能讓使用者製作字型更加上手，實用工具幾乎都是基於 WebApp 形式進行提供，使用者不需要安裝額外依賴環境或是軟體即可使用，大大增加方便性與降低難度。實用工具可以至論文介紹頁進行使用，該頁面整合了所有本研究所製作的內容。",
+        "pic": "unitilites.png",
+        "urls": [
+            { 
+                "href": "//paper.poynt2005.top/",
+                "text": "論文介紹頁"
+            }
+        ]
+    }
+
+
+]
