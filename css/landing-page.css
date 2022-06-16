@@ -115,9 +115,10 @@ h1{
 }
 
 .section-heading-spacer {
-    float: left;
-    width: 1150px;
+    /* float: left;
+    width: 1150px; */
     border-top: 3px solid #85828295;
+    margin: 6rem 0;
 }
 
 .banner {

@@ -12,7 +12,7 @@ window.addEventListener('load', function(){
 
 
         container
-            .append('hr')
+            .append('div')
             .attr('class', 'section-heading-spacer')
         ;
 
