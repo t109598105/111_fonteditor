@@ -110,6 +110,41 @@
                 "text": "論文介紹頁"
             }
         ]
+    },
+    {
+        "title": "相關函式庫",
+        "content": "以上為構建本研究需要使用的數個開源函式庫",
+        "pic": "library.svg",
+        "urls": [
+            { 
+                "href": "//github.com/opentypejs/opentype.js",
+                "text": "字型解析套件 Opentype.js (已棄用)"
+            },
+            { 
+                "href": "//d3js.org",
+                "text": "資料可視化套件 d3.js"
+            },
+            { 
+                "href": "//github.com/Pal3love/otRebuilder",
+                "text": "OpenType 轉換工具 otRebuilder"
+            },
+            { 
+                "href": "//github.com/fonttools/fonttools",
+                "text": "字型解析套件 fontTools"
+            },
+            { 
+                "href": "//github.com/fontforge/fontforge",
+                "text": "字型生成軟體 FontForge"
+            },
+            { 
+                "href": "//github.com/google/woff2",
+                "text": "WebFont 生成工具 WOFF2"
+            },
+            { 
+                "href": "//github.com/hughsk/svg-path-parser",
+                "text": "SVG 路徑解析套件 svg-path-parser"
+            }
+        ]
     }
 
 
