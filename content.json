@@ -113,7 +113,7 @@
     },
     {
         "title": "相關函式庫",
-        "content": "以上為構建本研究需要使用的數個開源函式庫",
+        "content": "以上為構建本研究需要使用的數個開源函式庫或參考資料",
         "pic": "library.svg",
         "urls": [
             { 
@@ -143,7 +143,11 @@
             { 
                 "href": "//github.com/hughsk/svg-path-parser",
                 "text": "SVG 路徑解析套件 svg-path-parser"
-            }
+            },
+			{
+				"href": "//zh.m.wikipedia.org/zh-tw/SFNT",
+                "text": "SFNT 容器的極限值"
+			}
         ]
     }
 
