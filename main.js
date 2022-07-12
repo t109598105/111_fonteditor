@@ -26,11 +26,21 @@ window.addEventListener('load', function(){
             .attr('class', 'col-lg-5 col-sm-6')
         ;
 
-        col
+        var h2 = col
             .append('h2')
             .attr('class', 'section-heading')
             .text(function(d){ return d.title; })
         ;
+
+        h2.filter(function(d, i){ return i == 0; })
+            .style('display', 'flex')
+            .style('align-items', 'center')
+                .append('img')
+                .attr('src', './img/name.svg')
+                .style('margin-left', '20px')
+                .style('max-height', '30px')
+        ;
+        
 
         col
             .selectAll('a')
